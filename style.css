@@ -1,0 +1,122 @@
+* Common CSS start */ body {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2656;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* Common CSS end */
+
+/* header start */
+header {
+    font-family: 'Playfair Display', serif;
+    padding: 15px 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 60%;
+    float: right;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    display: inline-block;
+    margin-right: 150px;
+    color: #626262;
+    text-decoration: none;
+    transition: .33s ease;
+}
+
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+
+.menu ul li a:hover {
+    color: black;
+}
+
+/* header end */
+
+/* newsletter start */
+.news {
+    background-color: #f0f0f0;
+    padding: 70px;
+}
+
+.signup {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.s_h1 {
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.s_form {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.s_form input {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    width: 340px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    background: transparent;
+    padding-left:5px;
+    padding-right: 45px;
+
+}
+
+.s_form input:focus {
+    outline: 0;
+}
+
+.s_form button {
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top:15px;
+    right: 0;
+}
+
+.s_form button :focus {
+    outline: 0;
+}
+
+.s_form button img {}
+
+/* newsletter end */
