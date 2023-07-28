@@ -4,3 +4,25 @@ font-family: 'Ubuntu', sans-serif;
 
 
 Color
+    black #000000
+    ash #626262
+padding
+    headder 
+    footer
+    banner/slider
+
+
+    about
+    contact
+    portfolio
+    etc.... padding same
+
+    top bottom same
+    top large bottom small
+    top small bottom large
+    top 0 bottom large
+    top large bottom 0
+
+    for dextop 100-120
+    for tab 80-100
+    for mobile 50-70
